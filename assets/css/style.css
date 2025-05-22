@@ -5,9 +5,12 @@
 :root {
     --primary-font: "inter", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #021a40; /* Dark blue */
-    --secondary-color: #f8f6ec; /* Ivory */
-    --highlight-color: #d1a664; /* Light brown */
+    --primary-color: #021a40;
+    /* Dark blue */
+    --secondary-color: #f8f6ec;
+    /* Ivory */
+    --highlight-color: #d1a664;
+    /* Light brown */
 }
 
 /* Global styles */
@@ -21,19 +24,37 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform:uppercase ;
 }
 
 /* Navbar */
 
 #navbar {
-    background-color: var(--primary-color);
+    background-color: var(--highlight-color);
 }
 
 #navbar .logo {
-    width:30px;
+    width: 30px;
     margin-left: 20px;
 }
 
+/* Header and Hero */
+
+#hero {
+    background: lightblue url(../images/Blue\ couch\ decor.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.column {
+    min-width: 300px;
+    opacity: 0.8;
+    background-color: white;
+    margin-top: 150px;
+    text-align: center;
+    padding: 1rem 1rem;
+}
 
 /* grid visualization CSS for testing */
 
