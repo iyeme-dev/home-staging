@@ -24,13 +24,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-    text-transform:uppercase ;
+    text-transform: uppercase;
 }
 
 /* Navbar */
 
 #navbar {
     background-color: var(--highlight-color);
+    box-shadow: 2px 4px 6px gray;
+    height: 80px;
 }
 
 #navbar .logo {
@@ -38,23 +40,34 @@ h3 {
     margin-left: 20px;
 }
 
-/* Header and Hero */
+/* Hero */
 
-#hero {
-    background: lightblue url(../images/Blue\ couch\ decor.png);
-    background-position: center;
+.hero {
+    background-image: url(../images/Blue\ couch\ decor.png);
     background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
 }
 
-
-.column {
-    min-width: 300px;
-    opacity: 0.8;
+.centered-box {
+    white-space: nowrap;
     background-color: white;
-    margin-top: 150px;
+    opacity: 0.8;
+    padding: 1rem 2rem;
     text-align: center;
-    padding: 1rem 1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-150px);
 }
+
+/* Styling to set equal; heights to card element in sections for - what is home staging & why choose us*/
+
+.equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 
 /* grid visualization CSS for testing */
 
