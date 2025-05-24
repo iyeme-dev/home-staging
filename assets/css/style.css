@@ -5,12 +5,8 @@
 :root {
     --primary-font: "inter", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #021a40;
-    /* Dark blue */
-    --secondary-color: #f8f6ec;
-    /* Ivory */
-    --highlight-color: #d1a664;
-    /* Light brown */
+    --primary-color: #04291c; /* Dark green */
+    --secondary-color: #cba161; /* Light brown */
 }
 
 /* Global styles */
@@ -27,23 +23,29 @@ h3 {
     text-transform: uppercase;
 }
 
-/* Navbar */
+/* Navbar section*/
 
 #navbar {
-    background-color: var(--highlight-color);
+    background-color: var(--secondary-color);
     box-shadow: 2px 4px 6px gray;
-    height: 80px;
 }
 
 #navbar .logo {
-    width: 30px;
+    width: 60px;
     margin-left: 20px;
 }
 
-/* Hero */
+/* Increase font size of navbar text */
+
+.navbar-large-text .nav-link,
+.navbar-large-text .navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Hero section*/
 
 .hero {
-    background-image: url(../images/Blue\ couch\ decor.png);
+    background-image: url(../images/blue-couch.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
