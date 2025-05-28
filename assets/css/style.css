@@ -102,6 +102,11 @@ h2 {
     color: var(--primary-color)
 }
 
+/* stle to correct text-decoration property from bootstrap on social links */
+#contact a {
+    text-decoration: none;
+}
+
 
 /* grid visualization CSS for testing */
 
