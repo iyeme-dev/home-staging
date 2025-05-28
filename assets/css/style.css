@@ -76,6 +76,41 @@ h2 {
     height: 100%;
 }
 
+/* 3 step process */
+
+.ivory-bg {
+      background-color: #f5ede0/* Ivory */
+    }
+
+    .process-box {
+      position: relative;
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .process-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 1rem;
+    }
+
 /* Testimonials */
 /* Reduce size of the testimonials pictures */
 .small-img {
