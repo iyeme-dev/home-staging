@@ -102,10 +102,19 @@ h2 {
     color: var(--primary-color)
 }
 
+#contact .table-dark * {
+    background-color: transparent;
+}
+
 /* stle to correct text-decoration property from bootstrap on social links */
 #contact a {
     text-decoration: none;
 }
+
+/* Change all table border lines to navy blue */
+  .custom-table {
+    border: 1px solid white !important;
+  }
 
 
 /* grid visualization CSS for testing */
