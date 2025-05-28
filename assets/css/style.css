@@ -5,8 +5,10 @@
 :root {
     --primary-font: "inter", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #0a3463; /* Dark green */
-    --secondary-color: #cba161; /* Light brown */
+    --primary-color: #0a3463;
+    /* Dark green */
+    --secondary-color: #cba161;
+    /* Light brown */
 }
 
 /* Global styles */
@@ -74,16 +76,28 @@ h2 {
     height: 100%;
 }
 
+/* Testimonials */
+/* Reduce size of the testimonials pictures */
+.small-img {
+    width: 200px;
+    height: auto;
+}
+
+/* change color of stars in review */
+.gold-color {
+    color: gold;
+}
+
 /* Footer / contact */
 
 #contact {
     background-color: var(--secondary-color);
-    color:white;
+    color: white;
     padding-bottom: 3rem;
 }
 
 #contact h2 {
-    color:white;
+    color: white;
 }
 
 #contact i {
@@ -94,7 +108,7 @@ h2 {
 
 #contact .social-links i {
     color: white;
-    font-size:1.9rem;
+    font-size: 1.9rem;
     transition: color 0.3s ease-in-out;
 }
 
@@ -112,9 +126,9 @@ h2 {
 }
 
 /* Change all table border lines to navy blue */
-  .custom-table {
+.custom-table {
     border: 1px solid white !important;
-  }
+}
 
 
 /* grid visualization CSS for testing */
