@@ -5,10 +5,10 @@
 :root {
     --primary-font: "inter", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #0a3463; /* Dark green */
-    --secondary-color: #cba161; /* Light brown */
+    --primary-color: #4b7e94; /* dusty-blue */
+    --secondary-color: #FF8B00; /* orange */
 }
-
+p
 /* Global styles */
 
 body {
@@ -31,7 +31,7 @@ h2 {
 /* Navbar section*/
 
 #navbar {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     box-shadow: 2px 4px 6px gray;
 }
 
@@ -44,6 +44,11 @@ h2 {
 .navbar-large-text .nav-link,
 .navbar-large-text .navbar-brand {
     font-size: 1.5rem;
+}
+
+.nav-link,
+.nav-link .active {
+    color: white
 }
 
 /* Hero section*/
@@ -130,7 +135,7 @@ h2 {
 /* Footer / contact */
 
 #contact {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     padding-bottom: 3rem;
 }
@@ -140,7 +145,7 @@ h2 {
 }
 
 #contact i {
-    color: #f4d3a2;
+    color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
 }
@@ -152,7 +157,11 @@ h2 {
 }
 
 #contact .social-links i:hover {
-    color: var(--primary-color)
+    color: var(--secondary-color);
+}
+
+#contact h3 {
+    color: var(--secondary-color);
 }
 
 #contact .table-dark * {
