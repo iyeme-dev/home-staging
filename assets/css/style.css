@@ -8,7 +8,7 @@
     --primary-color: #4b7e94; /* dusty-blue */
     --secondary-color: #FF8B00; /* orange */
 }
-p
+
 /* Global styles */
 
 body {
@@ -46,9 +46,12 @@ h2 {
     font-size: 1.5rem;
 }
 
-.nav-link,
-.nav-link .active {
-    color: white
+.nav-link {
+    color: white;
+}
+
+.nav-link.active {
+    text-decoration: underline;
 }
 
 /* Hero section*/
@@ -168,7 +171,7 @@ h2 {
     background-color: transparent;
 }
 
-/* stle to correct text-decoration property from bootstrap on social links */
+/* style to correct text-decoration property from bootstrap on social links */
 #contact a {
     text-decoration: none;
 }
