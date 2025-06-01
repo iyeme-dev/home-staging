@@ -1,3 +1,4 @@
+
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
 
@@ -133,6 +134,14 @@ h2 {
 /* change color of stars in review */
 .gold-color {
     color: gold;
+}
+
+/* Portffolio */
+
+.fixed-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* Footer / contact */
