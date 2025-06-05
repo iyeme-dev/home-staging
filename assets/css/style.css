@@ -38,6 +38,12 @@ h3 {
     color: var(--primary-color);
 }
 
+.small-font {
+    font-size: 20px;
+    margin-block: 1em;
+
+}
+
 /* Navbar section*/
 
 #navbar {
