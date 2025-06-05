@@ -31,10 +31,6 @@ h2 {
     letter-spacing: 2px;
 }
 
-h5 {
-    font-family: var(--secondary-font);
-}
-
 /* Navbar section*/
 
 #navbar {
