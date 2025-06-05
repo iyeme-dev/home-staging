@@ -15,7 +15,8 @@
 
 body {
     font-family: var(--primary-font);
-    padding-top: 86px; /* Pushes the top of the header down under the fixed nav bar */
+    padding-top: 86px;
+    /* Pushes the top of the header down under the fixed nav bar */
 }
 
 h1,
@@ -77,6 +78,13 @@ h2 {
     transform: translateY(-150px);
 }
 
+.overlay-text {
+    display: block;
+    margin-bottom: 5px
+}
+
+/* What is home staging & why choose us section */
+
 /* Styling to set equal; heights to card element in sections for - what is home staging & why choose us*/
 .equal-height {
     display: flex;
@@ -90,11 +98,16 @@ h2 {
     object-fit: cover;
 }
 
-/* 3 step process */
+/* 3 step process section */
 
 .ivory-bg {
     background-color: #f5ede0
         /* Ivory */
+}
+
+.process-section {
+   max-width: 1140px; 
+   margin: 0 auto;
 }
 
 .process-box {
@@ -126,7 +139,7 @@ h2 {
     padding: 1rem;
 }
 
-/* Testimonials */
+/* Testimonials section */
 
 /* Reduce size of the testimonials pictures */
 .small-img {
@@ -160,13 +173,13 @@ h2 {
 /* Buttons */
 
 .custom-button {
-    background-color:var(--primary-color);
+    background-color: var(--primary-color);
     color: white;
 }
 
 .custom-button:hover {
     background-color: var(--secondary-color);
-    color:black;
+    color: black;
     border: 1px solid var(--primary-color)
 }
 
