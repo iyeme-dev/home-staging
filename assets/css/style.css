@@ -33,12 +33,15 @@ h1 {
 }
 
 h3 {
-    font-family: var(--secondary-font);
-    color: var(--primary-color);
+    font-size: 23px;
+}
+
+.large-text {
+    font-size: 23px;
 }
 
 /* Reduce font size of h2 heading in the quote page */
-.small-font {  
+.small-font {
     font-size: 20px;
     margin-block: 1em;
 }
@@ -79,6 +82,11 @@ h3 {
     position: relative;
 }
 
+.hero h3 {
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+
 .centered-box {
     white-space: nowrap;
     background-color: white;
@@ -92,6 +100,11 @@ h3 {
 .overlay-text {
     display: block;
     margin-bottom: 5px
+}
+
+.fade-message {
+    opacity: 1;
+    transition: opacity 1s ease;
 }
 
 /* What is home staging & why choose us - section */
@@ -224,6 +237,9 @@ h3 {
 
 #contact h3 {
     color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 #contact .table-dark * {

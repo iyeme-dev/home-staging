@@ -9,7 +9,7 @@
     <meta name="description"
         content="Enhance your property's appeal with a professional home staging service. Sell faster and for a higher price with our professional designs.">
     <meta name="keywords"
-        content="home staging, property staging, sell home faster, home styling, interior design, staging for sale" >
+        content="home staging, property staging, sell home faster, home styling, interior design, staging for sale">
 
     <!-- Title -->
     <title>Home Staging | Home</title>
@@ -60,11 +60,16 @@
     <header>
         <section class="hero d-flex justify-content-center align-items-center">
             <div class="centered-box">
-                <h1>We Stage Homes</h1>
-                <h2>
+                <h2 class="overlay-text">We Stage Homes</h2>
+                <h2 class="pb-2">
                     <span class="overlay-text">For Quicker Sales &</span>
                     <span>Huge Profits</span>
                 </h2>
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn custom-button" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        <span class="large-text">BOOK A FREE VISIT</span>
+                    </button>
             </div>
         </section>
     </header>
@@ -79,7 +84,8 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="card equal-height">
-                        <video class="card-img-top w-100 h-100 object-fit-cover" aria-label="Video walkthrough of a professionally staged home interior" controls><source src="assets/video/living-area.mp4" type="video/mp4"></video>
+                        <img src="assets/images/lady-decorating.jpeg" class="card-img-top img-cover"
+                            alt="Woman decorating home">
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -112,7 +118,7 @@
                 </div>
                 <div class="col-12 col-lg-6 order-lg-2">
                     <div class="card equal-height">
-                        <img src="assets/images/lady-decorating.jpeg" class="card-img-top img-cover"
+                        <img src="assets/images/sofa-bed.jpeg" class="card-img-top img-cover"
                             alt="Woman decorating home">
                     </div>
                 </div>
@@ -149,10 +155,10 @@
                         <div class="process-box">
                             <img src="assets/images/sitting-room.jpeg" alt="Step 1">
                             <div class="overlay">
-                                <h4>Step 1: Get a quote<br><br>
+                                <h3>Step 1: Get a quote<br><br>
                                     <small><em>Fill in the form with the property address and other details to get a
                                             quote.</em></small>
-                                </h4>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -162,10 +168,10 @@
                         <div class="process-box">
                             <img src="assets/images/bedroom-space.jpeg" alt="Step 2">
                             <div class="overlay">
-                                <h4>Step 2: Proposal<br><br>
+                                <h3>Step 2: Proposal<br><br>
                                     <small><em>You will receive a proposal within 24 hours to fit your requirements
                                             including pricing and timeline.</em></small>
-                                </h4>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -175,10 +181,10 @@
                         <div class="process-box">
                             <img src="assets/images/kitchen.jpeg" alt="Step 3">
                             <div class="overlay">
-                                <h4>Step 3: Staging<br><br>
+                                <h3>Step 3: Staging<br><br>
                                     <small><em>Furniture and accessories are delivered and property is staged in 1 - 2
                                             days.</em></small>
-                                </h4>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -326,6 +332,37 @@
             </div>
         </div>
     </footer>
+
+    <!--Bootstrap Modal-->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Book a free visit</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Fill in your details and we will be in touch to arrange a free visit to your property</p>
+                    <form class="row g-3">
+                        <div class="col-lg-6">
+                            <label for="inputName" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="inputEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail">
+                        </div>
+                        <div class="col-12 mb-4">
+                            <button type="submit" class="btn custom-button">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!--Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
