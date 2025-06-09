@@ -246,6 +246,11 @@ h3 {
     background-color: transparent;
 }
 
+/* Style to change color of phone number on mobiles to enhance contrast */
+.custom-color {
+    color:white;
+}
+
 /* style to correct text-decoration property from bootstrap on social links */
 #contact a {
     text-decoration: none;
