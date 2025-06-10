@@ -4,7 +4,7 @@ Project by: Iyeme Salubi
 
 [View live github project](https://iyeme-dev.github.io/home-staging/)
 
-This Home Staging Website is a frontend-focused project with core sections that include information on home staging, how to start the process of home staging, booking a free visit, and getting a personalized quote. It is aimed at user education, lead generation, and brand credibility using core brand colors with simple and easy-to-read text.
+This project creates a user-friendly home staging website with core sections that include information on home staging, how to start the process of home staging, booking a free visit, and getting a personalized quote. It is aimed at user education, lead generation, and brand credibility using core brand colors with simple and easy-to-read text.
 
 # Table of Contents
 
