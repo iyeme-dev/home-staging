@@ -143,6 +143,68 @@ This home staging website project was developed to solve a common problem in the
 
 The project improves the decision-making experience for clients. This makes it easier for them to understand, engage with, and invest in home staging services.
 
+# Design 
+The website is built using HTML5, CSS3, and Bootstrap 5, ensuring responsiveness, and a modern visual appeal across all devices.
+
+### Visual Design Choices
+
+Color Palette: Neutral and elegant tones that reflect the calm, clean aesthetic of the home staging site.
+
+Typography: Easy-to-read fonts that support both headings and body text.
+
+Spacing: Generous padding and margins for a clean, uncluttered layout.
+
+Visual Hierarchy: Clear headings, call-to-action buttons, and card layouts guide users through the site intuitively.
+
+### Layout & Structure
+#### Header
+
+- Fixed navigation bar for easy access to all main sections.
+
+#### Hero Section
+
+- Includes a visible "Book a Free Visit" button for quick client action.
+
+#### Home Staging Definition & Process
+
+- Two educational sections provide a concise explanation of home staging and outline the steps involved.
+
+- Content is arranged using Bootstrap’s grid system for readability.
+
+#### Testimonials Section
+
+- Well organized layout showcasing client feedback to build credibility.
+
+- Typography and spacing are optimized for legibility.
+
+#### Portfolio Section
+
+- Uses Bootstrap cards to display high-quality images with brief descriptions of the style used.
+
+- Organized in a neat grid that adjusts to screen size.
+
+#### Quote Request Page
+
+- Simple and clean form with required fields
+
+- HTML validation ensures proper input and prevents incomplete submissions.
+
+- Confirmation message provides clear next steps, reinforcing trust.
+
+#### Contact Information
+
+- Consistently visible in the site footer, displays - phone number, email address, and business hours.
+
+- Ensures users can find contact details from any page.
+
+#### Responsive Design
+
+- Fully responsive across all devices—from smartphones to large desktop screens.
+
+- Built with Bootstrap 5 breakpoints and fluid containers to maintain layout integrity.
+
+- Form elements, images, and navigation adapt to smaller viewports without losing functionality.
+
 
 
 
