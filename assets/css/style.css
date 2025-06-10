@@ -207,6 +207,21 @@ h3 {
     border: 1px solid var(--primary-color)
 }
 
+/* 404 Page */
+.error-container {
+    height: 100vh;
+}
+
+.error-code {
+    font-size: 10rem;
+    font-weight: 700;
+    color: #dc3545;
+}
+
+.error-message {
+    font-size: 1.5rem;
+}
+
 /* Footer / contact */
 
 #contact {
@@ -248,7 +263,7 @@ h3 {
 
 /* Style to change color of phone number on mobiles to enhance contrast */
 .custom-color {
-    color:white;
+    color: white;
 }
 
 /* style to correct text-decoration property from bootstrap on social links */
