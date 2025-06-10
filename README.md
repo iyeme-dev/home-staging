@@ -144,9 +144,11 @@ This home staging website project was developed to solve a common problem in the
 The project improves the decision-making experience for clients. This makes it easier for them to understand, engage with, and invest in home staging services.
 
 # Design 
-The website is built using HTML5, CSS3, and Bootstrap 5, ensuring responsiveness, and a modern visual appeal across all devices.
+The website consist of 3 pages which are linked with a simple navigation menu that is user friendly and responsive across different screen sizes. It is built using HTML5, CSS3, and Bootstrap 5, ensuring responsiveness, and a modern visual appeal.
 
-### Visual Design Choices
+### Brand Colours
+
+
 
 Color Palette: Neutral and elegant tones that reflect the calm, clean aesthetic of the home staging site.
 
