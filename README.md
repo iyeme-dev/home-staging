@@ -4,7 +4,7 @@ Project by: Iyeme Salubi
 
 [View live github project](https://iyeme-dev.github.io/home-staging/)
 
-This project creates a user-friendly home staging website with core sections that include information on home staging, how to start the process of home staging, booking a free visit, and getting a personalized quote. It is aimed at user education, lead generation, and brand credibility using core brand colors with simple and easy-to-read text.
+This project creates a user-friendly home staging website that incorporates a navigation menu and structured layout using Bootstrap, with core sections that include: information on home staging, how to start the process of home staging, booking a free visit, and getting a personalized quote.  The website is designed to teach users about home staging, attract new clients, and build trust in the brand. It uses the main brand colors and clear, easy-to-read text.
 
 # Table of Contents
 
@@ -33,37 +33,36 @@ This project creates a user-friendly home staging website with core sections tha
 11. [Author](author)
 
 # Project Overview
-The goal of this project is to design a responsive, user-friendly website for a home staging business. The website aims to educate users by providing information about home staging, build trust with images of past projects and testimonials from previous users, and facilitate engagement with potential clients through a visually appealing layout.
+The site is well organized to help and guide homeowners who are thinking about staging their homes for sale. It explains what home staging is, shows examples of past projects and client testimonials to build confidence, and uses a  visually appealing design to make it easy for users to be engaged.
 
 # Rationale
-This home staging website will aim to educate, engage, and convert homeowners and home builders into clients by providing a clear, accessible, and visually compelling online platform that:
+This home staging website is designed to help, inform, and attract both homeowners and home builders by offering a clear, easy-to-use, and visually appealing online platform.
 
-- Educates users about the concept, benefits, and process of home staging.
-- Simplifies user actions like booking visits, requesting quotes, or making inquiries.
-- Builds trust through testimonials, a portfolio of past projects, and a professional presentation.
-- Ensures accessibility and usability across all devices through responsive design.
+- It explains the meaning of home staging, why it’s helpful, and how it works.
+- It makes it easy for users to book a visit, ask questions, or request a quote.
+- It builds trust by showcasing reviews from happy clients and photos of past work.
+- It is responsive on all devices, like phones, tablets, and computers.
 
 ### Target Audience
-- Homeowners: trying to sell their property.
-- Home builders: showcasing new builds or model homes.
+- Homeowners who want to sell their homes.
+- Home builders who want to show off new houses or model homes.
 
 ### Motivation
-The motivation behind creating this home staging website stems from a common challenge faced by homeowners and home builders:
-- Lack of clear information about the homestaging process, users are often confused and do not know where to start.
+This website was created to solve a common problem that many homeowners and home builders face:
+
+People often don’t understand what home staging is or how to begin.
 - Difficulty getting a clear, quick estimate for home staging services
 - Lack of Visual Proof - users are unsure if the staging matches their brand, property style, or target market.
-- Usually have unanswered questions about the home staging process
+- Users usually have unanswered questions about the home staging process
 - Users are often uncertain about whether the service is reliable or worth the investment.
   
-This project was therefore inspired by the need to bridge this information gap and simplify user interaction by providing a comprehensive, easy-to-navigate platform that educates, showcases real work, and facilitates direct engagement.
-Ultimately, the goal is to empower homeowners with knowledge and confidence, helping them make informed decisions that improve their property’s market appeal and selling success.
+This project was therefore insired by the need to make things clearer and easier. The website gives users simple information, examples of past projects, and easy ways to take action.
+The main goal is to help homeowners feel confident and informed, so they can make better choices that improve how well their property sells.
 
 ### Background
-In the real estate market, first impressions play an important role in attracting buyers and securing a timely sale. Home staging—preparing and decorating a property to make it more appealing to potential buyers—has become an increasingly popular strategy to enhance a home's marketability and perceived value. Studies show that professionally staged homes often sell faster and at higher prices compared to non-staged properties.
+In the real estate market, first impressions play an important role in attracting buyers and securing a timely sale. Home staging—preparing and decorating a property to make it more appealing to potential buyers—has become an increasingly popular strategy to enhance a home's marketability and perceived value. 
 
-Despite its proven benefits, many homeowners are unfamiliar with what home staging involves, how the process works, and how it can impact their selling outcomes. This lack of knowledge can lead to hesitation or missed opportunities.
-
-This project was initiated to address these gaps by creating a modern, informative, and responsive website. It aims to educate users about home staging, showcase successful projects, and provide simple and easy ways to engage with the home stagers
+Research has shown that homes that are staged usually sell more quickly and for more money than those that are not. But many homeowners don’t really know what home staging is, how it works, or how it can help them sell their homes. Because of this, they may feel unsure or miss out on good chances.This website was created to solve this issue. It helps people understand home staging, shows examples of past projects, and makes it easy to contact the staging team.
 
 ### Proposed Solution
 To address the challenges faced by homeowners and property sellers, this project offers a responsive, modern, and user-focused home staging website designed with clarity, accessibility, and functionality at its core.
@@ -322,8 +321,9 @@ GitHub Pages was used to deploy the website live at: https://iyeme-dev.github.io
 
 # Credits and Reference
 - Images sourced from [FreePik](https://freepik.com/)
-- Icons from [favicon](https://favicon.io/) 
+- Brand logo generated with [favicon](https://favicon.io/) 
 - Fonts from [Google Fonts](https://fonts.google.com/)
+- Icons from [Font Awesome](https://fontawesome.com/)
 
 # Author
 Iyeme Salubi
