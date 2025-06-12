@@ -5,18 +5,15 @@
 :root {
     --primary-font: "inter", sans-serif;
     --secondary-font: "Oswald", sans-serif;
-    --primary-color: #2a586b;
-    /* dusty-blue */
-    --secondary-color: #C9FFE5;
-    /* aero-blue */
+    --primary-color: #2a586b; /* casal */
+    --secondary-color: #C9FFE5; /* aero-blue */
 }
 
 /* Global styles */
 
 body {
     font-family: var(--primary-font);
-    padding-top: 86px;
-    /* Pushes the top of the header down under the fixed nav bar */
+    padding-top: 86px; /* Pushes the top of the header down under the fixed nav bar */
 }
 
 h1,
@@ -107,7 +104,7 @@ h3 {
     transition: opacity 1s ease;
 }
 
-/* What is home staging & why choose us - section */
+/* Section for - What is home staging & why choose us */
 
 /* Styling to set equal; heights to card element in sections for - what is home staging & why choose us*/
 .equal-height {
@@ -125,8 +122,7 @@ h3 {
 /* 3 step process section */
 
 .ivory-bg {
-    background-color: #f5ede0
-        /* Ivory */
+    background-color: #f5ede0 /* Ivory */
 }
 
 .process-section {
@@ -208,6 +204,7 @@ h3 {
 }
 
 /* 404 Page */
+
 .error-container {
     height: 100vh;
 }
@@ -271,7 +268,7 @@ h3 {
     text-decoration: none;
 }
 
-/* Change all table border lines to white */
+/* Change color of all table border lines*/
 .custom-table {
     border: 1px solid white !important;
 }
