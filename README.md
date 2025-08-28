@@ -28,10 +28,10 @@ This project creates a user-friendly home staging website that incorporates a na
    - [Browser Testing](#browser-testing)  
    - [Code Validation](#code-validation)  
    - [Lighthouse Test](#lighthouse-test)
-7. [Testing Errors and Improvements](testing-errors-and-improvements)
+7. [Testing Errors and Improvements](#testing-errors-and-improvements)
 8. [Technologies Used](#technologies-used)
-9. [Credit and Reference](credit-and-reference)
-10. [Author](author)
+9. [Credit and Reference](#credit-and-reference)
+10. [Author](#author)
 
 # Project Overview
 The site is well organized to help and guide users who are thinking about staging their homes for sale. It explains what home staging is, shows examples of past projects and client testimonials to build confidence, and uses a  visually appealing design to make it easy for users to be engaged.
@@ -387,4 +387,5 @@ GitHub Pages was used to deploy the website live at: https://iyeme-dev.github.io
 
 # Author
 Iyeme Salubi
+
 
